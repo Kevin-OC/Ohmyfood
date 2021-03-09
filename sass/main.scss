@@ -266,3 +266,27 @@
 .price {
     font-weight: bold;
 }
+
+/* DESKTOP responsive */
+@media screen and (min-width: 992px) {
+    .menu__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu__header {
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menu {
+        width: 30%;
+    }
+
+    .menu__btn {
+        width: 100%;
+    }
+}

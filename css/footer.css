@@ -46,4 +46,10 @@ ul {
   padding-right: 8px;
 }
 
+@media screen and (min-width: 992px) {
+  .footer {
+    text-align: center;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
