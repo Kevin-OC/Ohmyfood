@@ -146,18 +146,19 @@ ul {
 .heart-icon {
   font-size: 1.2em;
   color: #fff;
+  background: transparent;
   -webkit-text-stroke: 1px #353535;
   cursor: pointer;
+  transition: all 4s;
 }
 .heart-icon:hover {
+  color: transparent;
   -webkit-text-stroke: 1px transparent;
-  transform: scale(1.1);
   background: linear-gradient(338deg, #9356DC, #FF79DA);
   background: -webkit-gradient(338deg, #9356DC, #FF79DA);
   background: -o-linear-gradient(338deg, #9356DC, #FF79DA);
   background-clip: text;
   -webkit-background-clip: text;
-  color: transparent;
 }
 
 /* PAGES menus des restaurants */
@@ -228,7 +229,7 @@ ul {
   -webkit-backface-visibility: hidden;
   width: 100%;
   min-width: 0;
-  display: inline-block;
+  line-height: 1.6rem;
 }
 
 .menu__card__info--title {

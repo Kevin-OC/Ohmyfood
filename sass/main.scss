@@ -129,17 +129,18 @@
 .heart-icon {
     font-size: 1.2em;
     color: $light;
+    background: transparent;
     -webkit-text-stroke: 1px $dark;
     cursor: pointer;
+    transition: all 4s;
     &:hover {
+        color: transparent;
         -webkit-text-stroke: 1px transparent;
-        transform: scale(1.1);
         background: linear-gradient(338deg, $primaire, $secondaire);
         background: -webkit-gradient(338deg, $primaire, $secondaire);
         background: -o-linear-gradient(338deg, $primaire, $secondaire);        
         background-clip: text;
         -webkit-background-clip: text;
-        color: transparent;
     }
 }
 
@@ -213,7 +214,7 @@
     -webkit-backface-visibility: hidden;  
     width: 100%;
     min-width: 0;
-    display: inline-block;
+    line-height: 1.6rem;
 }
 
 .menu__card__info--title {
