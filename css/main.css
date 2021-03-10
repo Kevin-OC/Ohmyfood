@@ -204,6 +204,15 @@ ul {
 .menu {
   margin: 1rem;
   padding-bottom: 2rem;
+  animation: apparitiongraduelle 2s;
+}
+@keyframes apparitiongraduelle {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .menu .menu__title {
   font-weight: 400;
