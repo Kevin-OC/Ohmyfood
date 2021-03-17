@@ -64,10 +64,10 @@ ul {
   color: #7e7e7e;
 }
 
-.fonctionnement__card--colored {
+.fonctionnement__card--colored:hover {
   background-color: #f5edff;
 }
-.fonctionnement__card--colored .fa-store {
+.fonctionnement__card--colored:hover .fas {
   color: #9356DC;
 }
 
@@ -345,8 +345,8 @@ ul {
 /* LOADING de la page d'accueil */
 .loader {
   font-family: "Shrikhand", cursive;
-  height: 100%;
-  width: 100%;
+  height: 0%;
+  width: 0%;
   position: absolute;
   background: #fff;
   z-index: 1;
@@ -361,12 +361,20 @@ ul {
 @keyframes opacite {
   0% {
     opacity: 1;
+    height: 100%;
+    width: 100%;
   }
   50% {
     opacity: 1;
   }
+  99% {
+    height: 100%;
+    width: 99%;
+  }
   100% {
     opacity: 0;
+    height: 0%;
+    width: 0%;
   }
 }
 
